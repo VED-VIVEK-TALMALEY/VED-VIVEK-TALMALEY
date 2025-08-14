@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on artificial intelligence project <br>👯 I’m looking to collaborate on machine learning and artificial intelligence and web developement<br>🌱 I’m currently learning machine learning <br>💬 Ask me about machine learning <br>⚡ Fun fact
+🔭 I’m currently working on artificial intelligence project <br>👯 I’m looking to collaborate on machine learning and artificial intelligence and web developement<br>🌱 I’m currently learning machine learning <br>💬 Ask me about machine learning <br>⚡ Fun fact:-"Turning complex algorithmic challenges into elegant, practical solutions—my code makes an impact, one clever function at a time."
 
 
 ## 🌐 Socials:
