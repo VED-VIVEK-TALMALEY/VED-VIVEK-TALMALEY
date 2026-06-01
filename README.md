@@ -16,6 +16,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ved-vivek-talmaley-ba51a328b)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vedwork21@gmail.com)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0006-6444-9446)
+</br>
 [![LeetCode](https://leetcard.jacoblin.cool/ved_talmaley?theme=dark&font=fira_code&ext=heatmap&border=0&radius=10)](https://leetcode.com/u/ved_talmaley/)
 </div>
 
