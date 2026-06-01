@@ -2,6 +2,8 @@
 
 <div align="center">
 
+<div align="center">
+
 ```
 ██╗   ██╗███████╗██████╗     ██╗   ██╗██╗██╗   ██╗███████╗██╗  ██╗
 ██║   ██║██╔════╝██╔══██╗    ██║   ██║██║██║   ██║██╔════╝██║ ██╔╝
@@ -27,10 +29,10 @@
 
 Third-year **B.Tech CS @ SRM Institute of Science and Technology** (CGPA: 8.33/10).
 
-I don't just implement papers — I design systems from scratch. My work spans multimodal vision-language models trained on satellite imagery, 7-agent legal AI pipelines deployed in production at a national hackathon, LLM hallucination evaluation frameworks, and original research in spatiotemporal financial modeling.
+I don't just implement papers — I design systems from scratch. My work spans multimodal vision-language models trained on satellite imagery, 7-agent legal AI pipelines deployed in production at a national hackathon, LLM hallucination evaluation frameworks, and financial intelligence platforms built on production-grade ETL pipelines.
 
 **What I'm doing right now:**
-- 🛰️ SESPM — original research: Self-Evolving Spatiotemporal Pattern Matrix for financial time series (Phase 1 architecture complete, 18 equation groups)
+- 🏦 QuantumLens — HSBC financial intelligence platform: dictionary-based KPI extractor, Supabase warehouse, RAG pipeline over earnings data
 - 📄 EAI CloudComp 2026 — first-author paper submitted (TerraSight)
 - ⚖️ Patent pending — co-inventor on TerraSight environmental analytics system
 - 🏆 Deloitte Hacksplosion 2026 — Top 60 / 22,000+ teams nationally (Team Lead)
@@ -154,6 +156,40 @@ Binary output: Tumour / No Tumour + confidence score
 
 End-to-end pipeline: automated ingestion of Ministry of Finance documents → NLP-based macroeconomic signal classification → structured reporting. The EWS-4 early warning framework flags regulatory stress signals across four indicator dimensions.
 
+### 🏦 [QuantumLens — HSBC Financial Intelligence Platform](https://github.com/VED-VIVEK-TALMALEY/quantumlens-HSBC)
+> *Production ETL pipeline turning HSBC earnings workbooks into a queryable financial intelligence layer.*
+
+**The Problem:** HSBC's Q1 2026 data pack is 20+ sheets of dense financial data. Manually cross-referencing Revenue, NII, CET1, RoTE across quarters is error-prone and doesn't scale. Goal: automated pipeline that extracts, normalises, warehouses, and makes this data conversationally queryable.
+
+**Why This Stack:**
+| Choice | Why |
+|---|---|
+| One record per metric (not wide rows) | Enables `WHERE metric_name LIKE '%NII%'` queries, clean lineage tracing to workbook → sheet → cell, and independent retrieval per KPI for RAG |
+| Supabase (not raw Postgres) | Production-managed Postgres with built-in pgvector for the RAG layer — no infra overhead, full SQL semantics |
+| Dictionary-first extraction | HSBC KPI names are known. High-precision alias matching (`NII`, `Banking NII`, `Net Interest Income` → `nii`) before any heuristic discovery layer |
+| Single-responsibility modules | `workbook_reader` → `sheet_scanner` → `metric_extractor` — each independently testable, each with exactly one job |
+
+**Pipeline Architecture:**
+```
+HSBC .xlsx (20+ sheets)
+        ↓
+workbook_reader.py    ← sheet metadata: name, rows, cols, non_null_cells, density
+        ↓
+sheet_scanner.py      ← non-empty row inventory per sheet
+        ↓
+metric_extractor.py   ← dictionary + alias matching → candidate KPIs
+        ↓
+raw_financial_data    ← Supabase: sheet_name | metric_name | metric_value | unit
+        ↓
+metric_definitions    ← semantic layer: normalized_name | aliases | category
+        ↓
+financial_metrics     ← clean, queryable KPI table
+        ↓
+RAG Pipeline          ← pgvector embeddings → executive copilot
+```
+
+**Complexity Note:** The scanner returns full non-empty rows (not individual cells) so the extractor sees `["Revenue", 18.6, "USD bn"]` as a unit — no label-value reconstruction needed. Density scoring (`non_null_cells / total_cells`) on each sheet lets the pipeline skip formatting/notes sheets automatically without any hardcoded sheet names.
+
 ---
 
 ## 🛠️ Technical Arsenal
@@ -173,14 +209,11 @@ stack = {
 
 ---
 
-## 📈 Research
+## 📈 Research & IP
 
-### SESPM — Self-Evolving Spatiotemporal Pattern Matrix *(In Progress)*
-Original research applying spatiotemporal ML to financial time series. Phase 1 architecture complete (18 equation groups in LaTeX). Phase 2 scoped: SESPM-ESG integrating satellite-derived NDVI signals with financial indicators via the TerraSight pipeline.
+**EAI CloudComp 2026** — First-author paper submitted on the TerraSight multimodal Earth Observation system (SpectralViT + GPT-2 + LoRA, ISRO satellite data).
 
-**EAI CloudComp 2026** — First-author paper submitted (TerraSight multimodal EO system).
-
-**Patent Filing** — Co-inventor, environmental analytics system (TerraSight).
+**Patent Filing** — Co-inventor, TerraSight environmental analytics system.
 
 ---
 
@@ -199,8 +232,8 @@ Original research applying spatiotemporal ML to financial time series. Phase 1 a
 
 <div align="center">
 
-![Ved's GitHub Stats](https://github-readme-stats.vercel.app/api?username=VED-VIVEK-TALMALEY&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VED-VIVEK-TALMALEY&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Ved's GitHub Stats](https://github-readme-stats.anuraghazra1.vercel.app/api?username=VED-VIVEK-TALMALEY&show_icons=true&theme=dark&hide_border=true&count_private=false)
+![Top Languages](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=VED-VIVEK-TALMALEY&theme=dark&hide_border=true&layout=compact)
 
 </div>
 
