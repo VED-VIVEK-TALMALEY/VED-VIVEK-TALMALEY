@@ -1,16 +1,18 @@
+[![LeetCode](https://leetcard.jacoblin.cool/ved_talmaley?theme=dark&font=fira_code&ext=heatmap&border=0&radius=10)](https://leetcode.com/u/ved_talmaley/)
 
 
+ ```
 ██╗   ██╗███████╗██████╗     ██╗   ██╗██╗██╗   ██╗███████╗██╗  ██╗
 ██║   ██║██╔════╝██╔══██╗    ██║   ██║██║██║   ██║██╔════╝██║ ██╔╝
 ██║   ██║█████╗  ██║  ██║    ██║   ██║██║██║   ██║█████╗  █████╔╝ 
 ╚██╗ ██╔╝██╔══╝  ██║  ██║    ╚██╗ ██╔╝██║╚██╗ ██╔╝██╔══╝  ██╔═██╗ 
  ╚████╔╝ ███████╗██████╔╝     ╚████╔╝ ██║ ╚████╔╝ ███████╗██║  ██╗
   ╚═══╝  ╚══════╝╚═════╝       ╚═══╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝
-
+```
 
 ### I build AI systems that actually ship.
 **Multi-Agent Pipelines · LLM Engineering · Geospatial AI · Research**
-[![LeetCode](https://leetcard.jacoblin.cool/ved_talmaley?theme=dark&font=fira_code&ext=heatmap&border=0&radius=10)](https://leetcode.com/u/ved_talmaley/)
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://protfolio-chi-two.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ved-vivek-talmaley-ba51a328b)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vedwork21@gmail.com)
