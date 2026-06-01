@@ -154,7 +154,7 @@ Binary output: Tumour / No Tumour + confidence score
 
 End-to-end pipeline: automated ingestion of Ministry of Finance documents → NLP-based macroeconomic signal classification → structured reporting. The EWS-4 early warning framework flags regulatory stress signals across four indicator dimensions.
 
-### 🏦 [QuantumLens — HSBC Financial Intelligence Platform](https://github.com/VED-VIVEK-TALMALEY/quantumlens-HSBC)
+<!-- ### 🏦 [QuantumLens — HSBC Financial Intelligence Platform](https://github.com/VED-VIVEK-TALMALEY/quantumlens-HSBC)
 > *Production ETL pipeline turning HSBC earnings workbooks into a queryable financial intelligence layer.*
 
 **The Problem:** HSBC's Q1 2026 data pack is 20+ sheets of dense financial data. Manually cross-referencing Revenue, NII, CET1, RoTE across quarters is error-prone and doesn't scale. Goal: automated pipeline that extracts, normalises, warehouses, and makes this data conversationally queryable.
@@ -189,7 +189,7 @@ RAG Pipeline          ← pgvector embeddings → executive copilot
 **Complexity Note:** The scanner returns full non-empty rows (not individual cells) so the extractor sees `["Revenue", 18.6, "USD bn"]` as a unit — no label-value reconstruction needed. Density scoring (`non_null_cells / total_cells`) on each sheet lets the pipeline skip formatting/notes sheets automatically without any hardcoded sheet names.
 
 ---
-
+-->
 ## 🛠️ Technical Arsenal
 
 ```python
