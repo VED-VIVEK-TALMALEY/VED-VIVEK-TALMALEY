@@ -1,8 +1,6 @@
 [![LeetCode](https://leetcard.jacoblin.cool/ved_talmaley?theme=dark&font=fira_code&ext=heatmap&border=0&radius=10)](https://leetcode.com/u/ved_talmaley/)
 
-<div align="center">
 
-<div align="center">
 
 ```
 ██╗   ██╗███████╗██████╗     ██╗   ██╗██╗██╗   ██╗███████╗██╗  ██╗
