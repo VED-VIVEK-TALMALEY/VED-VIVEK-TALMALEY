@@ -17,6 +17,7 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vedwork21@gmail.com)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0006-6444-9446)
 </br>
+<div align="center">
 [![LeetCode](https://leetcard.jacoblin.cool/ved_talmaley?theme=dark&font=fira_code&ext=heatmap&border=0&radius=10)](https://leetcode.com/u/ved_talmaley/)
 </div>
 
