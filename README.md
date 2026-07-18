@@ -23,6 +23,19 @@
 
 
 ---
+<div align="center">
+        <h3><code>Ved@github ~ $ ./contributions.sh</code></h3>
+        <img src="./contrib-heatmap.svg" width="860" />
+        <br><br>
+        <h3><code>Ved@github ~ $ whoami</code></h3>
+        <table>
+          <tr>
+            <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
+            <td valign="top"><img src="./info-card.svg" width="490" /></td>
+              <td valign="top"><img src="./info-card.svg" width="490" /></td>
+          </tr>
+        </table>
+</div>
   
 ## ⚡ Who Am I
 
@@ -260,23 +273,6 @@ If you're working on LLM systems, agentic AI, geospatial ML, or original researc
     </tr>
   </table>
 </div>
-<div align="center">
 
-        <h3><code>Ved@github ~ $ ./contributions.sh</code></h3>
-        <img src="./contrib-heatmap.svg" width="860" />
+   
 
-        <br><br>
-
-<<<<<<< HEAD
-        <h3><code>Ved@github ~ $ whoami</code></h3>
-        <table>
-          <tr>
-            <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
-            <td valign="top"><img src="./info-card.svg" width="490" /></td>
-              <td valign="top"><img src="./info-card.svg" width="490" /></td>
-          </tr>
-        </table>
-</div>
-        </div>
-=======
->>>>>>> 0502091f0b866dfae9400a4f254636140b9f4307
