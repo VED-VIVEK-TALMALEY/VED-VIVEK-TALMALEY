@@ -22,22 +22,7 @@
 </div>
 
 ---
- <div align="center">
 
-        <h3><code>Ved@github ~ $ ./contributions.sh</code></h3>
-        <img src="./contrib-heatmap.svg" width="860" />
-
-        <br><br>
-
-        <h3><code>Ved@github ~ $ whoami</code></h3>
-        <table>
-          <tr>
-            <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
-            <td valign="top"><img src="./info-card.svg" width="490" /></td>
-              <td valign="top"><img src="./info-card.svg" width="490" /></td>
-          </tr>
-        </table>
-</div>
 ## ⚡ Who Am I
 
 Third-year **B.Tech CS @ SRM Institute of Science and Technology** (CGPA: 8.33/10).
@@ -263,8 +248,20 @@ If you're working on LLM systems, agentic AI, geospatial ML, or original researc
 <div align="center">
 <sub>SRM Institute of Science and Technology · B.Tech CSE · Chennai, India · 2023–2027</sub>
 </div>
+ <div align="center">
+        <h3><code>Ved@github ~ $ ./contributions.sh</code></h3>
+        <img src="./contrib-heatmap.svg" width="860" />
+        <br><br>
+        <h3><code>Ved@github ~ $ whoami</code></h3>
+        <table>
+          <tr>
+            <td valign="top"><img src="./avi-ascii.svg" width="370" /></td>
+            <td valign="top"><img src="./info-card.svg" width="490" /></td>
+              <td valign="top"><img src="./info-card.svg" width="490" /></td>
+          </tr>
+        </table>
+        
+</div>
 
 
 
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
