@@ -16,7 +16,7 @@
 
 ## Who Am I
 
-Third-year **B.Tech CS @ SRM Institute of Science and Technology** (CGPA: 8.33/10). I design AI systems from scratch — multimodal vision-language models, multi-agent legal pipelines, hallucination evaluation frameworks, and financial intelligence platforms.
+Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/10). I design AI systems from scratch — multimodal vision-language models, multi-agent legal pipelines, hallucination evaluation frameworks, and financial intelligence platforms.
 
 **Currently:** HSBC financial intelligence platform (QuantumLens) · First-author paper submitted, EAI CloudComp 2026 · Patent processing (SESPM) · Top 60/22,000+ teams, Deloitte Hacksplosion 2026 (Team Lead)
 
