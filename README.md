@@ -20,19 +20,7 @@ Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/
 
 **Currently:** HSBC financial intelligence platform (QuantumLens) · First-author paper submitted, EAI CloudComp 2026 · Patent processing (SESPM) · Top 60/22,000+ teams, Deloitte Hacksplosion 2026 (Team Lead)
 
----
 
-## Contributions
-
-<div align="center">
-<img src="./contrib-heatmap.svg" width="860" />
-</div>
-<div align="center">
-<h2>I practice leet code also</h2>
-
-[![LeetCode](https://leetcard.jacoblin.cool/ved_talmaley?theme=dark&font=fira_code&ext=heatmap&border=0&radius=10)](https://leetcode.com/u/ved_talmaley/)
-</div>
----
 
 ## Featured Projects
 
