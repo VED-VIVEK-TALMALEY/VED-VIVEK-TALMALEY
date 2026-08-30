@@ -1,4 +1,4 @@
-```markdown
+
 <h1 align="center">I build AI systems that actually ship.</h1>
 
 <h3 align="center">Multi-Agent Pipelines · LLM Engineering · Geospatial AI · Research</h3>
@@ -80,4 +80,3 @@ Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/
 Working on LLM systems, agentic AI, geospatial ML, or quantitative finance research? Let's connect.
 
 **vedwork21@gmail.com** | [LinkedIn](https://linkedin.com/in/ved-vivek-talmaley-ba51a328b) | [Portfolio](https://protfolio-chi-two.vercel.app/)
-```
