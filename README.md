@@ -3,7 +3,7 @@
 
 <h3 align="center">Multi-Agent Pipelines · LLM Engineering · Geospatial AI · Research</h3>
 
-<div align="center">
+<div align="left">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://protfolio-chi-two.vercel.app/)
 
