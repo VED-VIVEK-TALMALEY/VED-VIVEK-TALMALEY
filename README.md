@@ -1,14 +1,17 @@
+```markdown
 <h1 align="center">I build AI systems that actually ship.</h1>
+
 <h3 align="center">Multi-Agent Pipelines · LLM Engineering · Geospatial AI · Research</h3>
 
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://protfolio-chi-two.vercel.app/)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ved-vivek-talmaley-ba51a328b)
+
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vedwork21@gmail.com)
+
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0006-6444-9446)
-
-
 
 </div>
 
@@ -20,18 +23,17 @@ Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/
 
 **Currently:** HSBC financial intelligence platform (QuantumLens) · First-author paper submitted, EAI CloudComp 2026 · Patent (provisional filed) (fintech) · Top 60/22,000+ teams, Deloitte Hacksplosion 2026 (Team Lead)
 
-
+---
 
 ## Featured Projects
 
 | Project | What It Does | Stack | Key Results |
 |---|---|---|---|
-
-| **[TerraSight](https://github.com/VED-VIVEK-TALMALEY/TerraSight)**<br>*Multimodal Geospatial AI* | Ask satellite imagery questions in plain English; custom SpectralViT handles 13-band multispectral EO data, fine-tuned with GPT-2 + LoRA | SpectralViT · GPT-2/LoRA · FastAPI · Express.js · MapLibre GL | 41.3% loss reduction (7 epochs) · NDVI R²=0.951 · 68.4% VQA accuracy · [Live demo](https://terrasight.streamlit.app) |
-| **[LexAI]()**<br>*Multi-Agent Legal AI* | 7-agent pipeline (intake→classification→precedent retrieval→risk→summary→audit) for legal document processing, built on Deloitte's GenW.AI infra | LangGraph · Aurora PostgreSQL · Pydantic-validated state graph | **Top 60 / 22,000+ teams**, Deloitte Hacksplosion 2026 · built in 24 hrs |
-| **[Brain Tumour CNN](https://github.com/VED-VIVEK-TALMALEY/CNN-BRAIN-TUMOUR-DETECTION-)**<br>*MRI Classification* | Custom CNN (not transfer learning) trained on MRI scans, outputs calibrated probability rather than a hard label | TensorFlow/Keras · Flask · Glass-morphism UI | 85–95% validation accuracy · [Live demo](https://braintumoro.streamlit.app) |
-| **[HalluciNet](https://github.com/VED-VIVEK-TALMALEY/HalluciNet)**<br>*LLM Validation Framework* | Uses Gemini 1.5 as an independent critic model to detect hallucinations against retrieved ground truth | Express.js · SQLite · Gemini API | Structured scoring + audit-logged pipeline |
-| **[MoF NLP Pipeline](https://github.com/VED-VIVEK-TALMALEY/Ministry-Finance-NLP)**<br>*Regulatory Signal Extraction* | Ingests 35 years of Ministry of Finance reports, classifies macroeconomic signals via NLP | Python · NLP · EWS-4 framework | 35-year longitudinal regulatory dataset |
+| **[TerraSight](https://github.com/VED-VIVEK-TALMALEY/TerraSight)**<br>*Multimodal Geospatial AI* | Ask satellite imagery questions in plain English; custom SpectralViT handles 13-band multispectral EO data, fine-tuned with GPT-2 + LoRA | SpectralViT · GPT-2/LoRA · FastAPI · Express.js · MapLibre GL | **41.3% loss reduction** (7 epochs) · **NDVI R² = 0.951** · **68.4% VQA accuracy** · [Live Demo](https://terrasight.streamlit.app) |
+| **LexAI**<br>*Multi-Agent Legal AI* | 7-agent pipeline (intake → classification → precedent retrieval → risk → summary → audit) for legal document processing, built on Deloitte's GenW.AI infrastructure | LangGraph · Aurora PostgreSQL · Pydantic-validated state graph | **Top 60 / 22,000+ teams**, Deloitte Hacksplosion 2026 · **Built in 24 hrs** |
+| **[Brain Tumour CNN](https://github.com/VED-VIVEK-TALMALEY/CNN-BRAIN-TUMOUR-DETECTION-)**<br>*MRI Classification* | Custom CNN (not transfer learning) trained on MRI scans, outputs calibrated probability rather than a hard label | TensorFlow/Keras · Flask · Glass-morphism UI | **85–95% validation accuracy** · [Live Demo](https://braintumoro.streamlit.app) |
+| **[HalluciNet](https://github.com/VED-VIVEK-TALMALEY/HalluciNet)**<br>*LLM Validation Framework* | Uses Gemini 1.5 as an independent critic model to detect hallucinations against retrieved ground truth | Express.js · SQLite · Gemini API | **Structured scoring** + **audit-logged pipeline** |
+| **[MoF NLP Pipeline](https://github.com/VED-VIVEK-TALMALEY/Ministry-Finance-NLP)**<br>*Regulatory Signal Extraction* | Ingests 35 years of Ministry of Finance reports, classifies macroeconomic signals via NLP | Python · NLP · EWS-4 framework | **35-year longitudinal regulatory dataset** |
 
 ---
 
@@ -57,7 +59,7 @@ Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/
 | **EAI CloudComp 2026** | First-author paper — TerraSight (SpectralViT + GPT-2 + LoRA on ISRO satellite data) |
 | **Patent Processing** | SESPM-(Quant Finance) |
 | **SAP Certified** | Generative AI Developer — Apr 2026 |
-|**GenW AI Certified**| AI-Architect by Deloitte|
+| **GenW AI Certified** | AI-Architect by Deloitte |
 
 ---
 
@@ -66,6 +68,7 @@ Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/
 <div align="center">
 
 ![Ved's GitHub Stats](https://github-readme-stats.anuraghazra1.vercel.app/api?username=VED-VIVEK-TALMALEY&show_icons=true&theme=dark&hide_border=true&count_private=false)
+
 ![Top Languages](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=VED-VIVEK-TALMALEY&theme=dark&hide_border=true&layout=compact)
 
 </div>
@@ -77,3 +80,4 @@ Third-year **B.Tech CSE @ SRM Institute of Science and Technology** (CGPA: 8.33/
 Working on LLM systems, agentic AI, geospatial ML, or quantitative finance research? Let's connect.
 
 **vedwork21@gmail.com** | [LinkedIn](https://linkedin.com/in/ved-vivek-talmaley-ba51a328b) | [Portfolio](https://protfolio-chi-two.vercel.app/)
+```
