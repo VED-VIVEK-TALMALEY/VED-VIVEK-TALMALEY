@@ -1,4 +1,4 @@
-
+[![ved-talmaley.runs-on.dev](https://runs-on.dev/banner/ved-talmaley)](https://ved-talmaley.runs-on.dev)
 <h1 align="center">I build AI systems that actually ship.</h1>
 
 <h3 align="center">Multi-Agent Pipelines · LLM Engineering · Geospatial AI · Research</h3>
